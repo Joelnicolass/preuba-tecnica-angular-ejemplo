@@ -1,0 +1,13 @@
+<div>
+  <section>
+    <p>{{ movie?.title }}</p>
+  </section>
+  <section>
+    <p>{{ movie?.description }}</p>
+  </section>
+
+  <section>
+    <p>{{ movie?.rating }}</p>
+    <button (click)="addToFavorites()">{{ isFavorite ? "❤️" : "🖤" }}</button>
+  </section>
+</div>
