@@ -1,4 +1,4 @@
-<div>
+<div class="movie-card" [routerLink]="['/movie', movie?.id]">
   <section>
     <p>{{ movie?.title }}</p>
   </section>
@@ -8,6 +8,8 @@
 
   <section>
     <p>{{ movie?.rating }}</p>
-    <button (click)="addToFavorites()">{{ isFavorite ? "❤️" : "🖤" }}</button>
+    <button (click)="addToFavorites($event)">
+      {{ isFavorite ? "❤️" : "🖤" }}
+    </button>
   </section>
 </div>

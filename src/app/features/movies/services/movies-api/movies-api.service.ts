@@ -17,8 +17,18 @@ export class MoviesApiService implements MoviesRepository {
     return of(movies).pipe(map((movies) => this._moviesAdapter(movies)));
   }
 
+  public getMovieById(id: string): Observable<Movie> {
+    const movie = movies.find((movie) => movie.id === id);
+
+    return of(this._movieAdapter(movie));
+  }
+
   private _moviesAdapter = (movies: any[]): Movie[] => {
-    return movies.map((movie) => ({
+    return movies.map((movie) => this._movieAdapter(movie));
+  };
+
+  private _movieAdapter = (movie: any): Movie => {
+    return {
       id: movie.id,
       title: movie.title,
       description: movie.description,
@@ -27,6 +37,7 @@ export class MoviesApiService implements MoviesRepository {
       genre: movie.genre,
       releaseDate: new Date(movie.releaseDate),
       trailerUrl: movie.trailerUrl,
-    }));
+      poster: movie.poster,
+    };
   };
 }

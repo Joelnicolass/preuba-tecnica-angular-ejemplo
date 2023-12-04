@@ -7,4 +7,5 @@ export interface Movie {
   genre: string[];
   releaseDate: Date;
   trailerUrl: string;
+  poster: string;
 }

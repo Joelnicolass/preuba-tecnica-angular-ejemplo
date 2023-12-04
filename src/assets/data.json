@@ -7,7 +7,8 @@
     "duration": "2h 30 min",
     "genre": ["Action", "Sci-Fi"],
     "releaseDate": "2020-09-03T00:00:00.000Z",
-    "trailerUrl": "https://www.youtube.com/watch?v=LdOM0x0XDMo"
+    "trailerUrl": "https://www.youtube.com/watch?v=LdOM0x0XDMo",
+    "poster": "Tenet.png"
   },
   {
     "id": "5f6b1d8b9b3e3b0017b1a1a2",
@@ -17,7 +18,8 @@
     "duration": "1h 57min",
     "genre": ["Action", "Animation", "Adventure"],
     "releaseDate": "2018-12-14T00:00:00.000Z",
-    "trailerUrl": "https://www.youtube.com/watch?v=tg52up16eq0"
+    "trailerUrl": "https://www.youtube.com/watch?v=tg52up16eq0",
+    "poster": "Spider Man.png"
   },
   {
     "id": "5f6b1d8b9b3e3b0017b1a1a3",
@@ -27,7 +29,8 @@
     "duration": "2h 10min",
     "genre": ["Comedy", "Crime", "Drama"],
     "releaseDate": "2019-11-27T00:00:00.000Z",
-    "trailerUrl": "https://www.youtube.com/watch?v=qGqiHJTsRkQ"
+    "trailerUrl": "https://www.youtube.com/watch?v=qGqiHJTsRkQ",
+    "poster": "Knives Out.png"
   },
   {
     "id": "5f6b1d8b9b3e3b0017b1a1a4",
@@ -37,7 +40,8 @@
     "duration": "2h 1min",
     "genre": ["Action", "Adventure", "Comedy"],
     "releaseDate": "2014-08-01T00:00:00.000Z",
-    "trailerUrl": "https://www.youtube.com/watch?v=d96cjJhvlMA"
+    "trailerUrl": "https://www.youtube.com/watch?v=d96cjJhvlMA",
+    "poster": "Guardians of The Galaxy.png"
   },
   {
     "id": "5f6b1d8b9b3e3b0017b1a1a5",
@@ -47,6 +51,7 @@
     "duration": "2h 21min",
     "genre": ["Action", "Adventure", "Sci-Fi"],
     "releaseDate": "2015-05-01T00:00:00.000Z",
-    "trailerUrl": "https://www.youtube.com/watch?v=tmeOjFno6Do"
+    "trailerUrl": "https://www.youtube.com/watch?v=tmeOjFno6Do",
+    "poster": "Avengers.png"
   }
 ]
